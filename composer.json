@@ -11,5 +11,11 @@
     ],
     "autoload": {
         "files": ["./bootstrap.php"]
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "suggest": {
+        "ext-sodium": "The new sodium php extension"
     }
 }
