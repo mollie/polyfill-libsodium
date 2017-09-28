@@ -16,8 +16,8 @@ Reference: https://github.com/jedisct1/libsodium-php
 
 **Using Composer:**  
 
-The easiest way to install is to require the polyfill-sodium library with Composer.  
-`composer require mollie/polyfill-sodium`
+The easiest way to install is to require the polyfill-libsodium library with Composer.  
+`composer require mollie/polyfill-libsodium`
 
 After installation of the package the bootstrap.php file will be autoloaded.
 
@@ -25,7 +25,7 @@ After installation of the package the bootstrap.php file will be autoloaded.
 Checkout or download all the files and include them manually into your project.
 
 Include the bootstrap file in your project  
-`require /path/to/vendor/polyfill-sodium/bootstrap.php` 
+`require /path/to/vendor/polyfill-libsodium/bootstrap.php` 
 
 # License
 This software is licensed under the [MIT License](LICENSE)
