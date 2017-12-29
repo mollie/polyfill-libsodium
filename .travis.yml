@@ -17,4 +17,4 @@ install:
 
 script:
 - composer validate --strict
-- find lib -name *.php | xargs -n 1 -P4 php -l
+- find lib -name '*.php' | xargs -n 1 -P4 php -l
