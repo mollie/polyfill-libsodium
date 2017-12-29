@@ -2,6 +2,8 @@
 
 A simple Polyfill for giving libsodium compatibility when having sodium installed.
 
+[![Build Status](https://travis-ci.org/mollie/polyfill-libsodium.svg?branch=master)](https://travis-ci.org/mollie/polyfill-libsodium)
+
 The new sodium extension has been accepted and will be distributed with PHP >= 7.2.  
 This will have a few breaking changes:
 
