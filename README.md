@@ -9,6 +9,7 @@ This will have a few breaking changes:
 
 - No more `\Sodium\` namespace. Everything must be in the global namespace.
 - The extension will be renamed to `sodium`. 
+- `\Sodium\randombytes_buf()` and `\Sodium\randombytes_random16()` have been removed. 
 
 So the current namespaced functions will not work anymore. So we created a polyfill for this.
 
