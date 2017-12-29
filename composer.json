@@ -7,6 +7,10 @@
         {
             "name": "Martijn Smit",
             "email": "smit@mollie.com"
+        },
+        {
+            "name": "Willem Stuursma-Ruwen",
+            "email": "willem@mollie.com"
         }
     ],
     "autoload": {
