@@ -749,7 +749,7 @@ function randombytes_buf(
     int $length
 ): string
 {
-    return \sodium_randombytes_buf($length);
+    return \random_bytes($length);
 }
 
 /**
@@ -760,7 +760,7 @@ function randombytes_buf(
  */
 function randombytes_random16(): string
 {
-    return \sodium_randombytes_random16();
+    return \random_int(0, 65535);
 }
 
 /**
