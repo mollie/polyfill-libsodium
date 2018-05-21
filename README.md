@@ -37,4 +37,4 @@ require 'vendor/mollie/polyfill-libsodium/bootstrap.php';
 # License
 This software is licensed under the [MIT License](LICENSE)
 
-© 2017 Mollie
+Copyright (c) 2017-2018, Mollie B.V.
