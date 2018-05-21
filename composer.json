@@ -19,9 +19,9 @@
     "require": {
         "php": ">=7.0.0"
     },
-    "provide": [
-        "ext-libsodium"
-    ],
+    "provide": {
+        "ext-libsodium": "*"
+    },
     "suggest": {
         "ext-sodium": "The new sodium php extension"
     }
